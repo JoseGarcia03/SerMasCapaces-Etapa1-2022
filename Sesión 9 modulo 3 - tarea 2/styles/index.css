@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-color: #A1C0E5;
+    --secondary-color: #C2C2C2;
+}
+
+/* Estilos del header */
+.header {
+    background-color: var(--primary-color);
+    font-size: 24px;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.image {
+    margin-left: 50px;
+    width: 100px;
+}
+
+.links {
+    color: #000;
+}
+
+.links:visited {
+    color: #333;
+}
+
+.links:nth-child(1) {
+    margin-right: 25px;
+}
+
+/* Estilos del main */
+.main {
+    margin-top: 18px;
+}
+
+.peliculas {
+    width: 75%;
+    margin: 18px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tarjeta {
+    border: rgb(204, 204, 204) solid .3px;
+    border-radius: 4px;
+}
+
+.imgTarjeta {
+    width: 13.9rem;
+    border-radius: 4px 4px 0 0;
+}
+
+.descripcion {
+    padding: 15px;
+}
