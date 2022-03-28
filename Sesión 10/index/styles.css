@@ -1,0 +1,14 @@
+div {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+img {
+    width: 100%;
+    min-width: 900px;
+    max-width: 1100px;
+}
+
+video {
+    width: 500px;
+}

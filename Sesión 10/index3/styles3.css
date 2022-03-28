@@ -1,0 +1,19 @@
+.box {
+    background: red;
+    height: 100px;
+}
+
+/* Reglas para tablets */
+@media all and (max-width: 768px) {
+    .box {
+        background: yellow;
+    }
+}
+
+/* Reglas para Moviles */
+@media all and (max-width: 420px) {
+    .box {
+        background: blue;
+    }
+}
+
